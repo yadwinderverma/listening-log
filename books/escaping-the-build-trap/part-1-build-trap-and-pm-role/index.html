@@ -1,0 +1,2793 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Key themes, quotes, and anecdotes from the audiobooks I listen to.">
+      
+      
+      
+        <link rel="canonical" href="https://yadwinderverma.github.io/listening-log/books/escaping-the-build-trap/part-1-build-trap-and-pm-role/">
+      
+      
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="../part-2-strategy-and-process/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.1.3">
+    
+    
+      
+        <title>Parts 1 & 2: Build Trap & PM Role - Listening Log</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../../assets/stylesheets/modern/main.e2cf241e.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/modern/palette.b60ce83d.min.css">
+      
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_scope.pathname.endsWith("/")||(__md_scope=new URL(__md_scope.pathname+"/",location)),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,_=__md_scope)=>JSON.parse(t.getItem(_.pathname+"."+e)),__md_set=(e,t,_=localStorage,a=__md_scope)=>{try{_.setItem(a.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer" aria-hidden="true"></label>
+    <div data-md-component="skip">
+      <a href="#__skip" class="md-skip">
+        Skip to content
+      </a>
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Listening Log" class="md-header__button md-logo" aria-label="Listening Log" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+      <span class="md-visually-hidden">Navigation</span>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Listening Log
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Parts 1 & 2: Build Trap & PM Role
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+          <span class="md-visually-hidden">Search</span>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="Search">
+  <button type="button" class="md-search__button">
+    Search
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+      
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  Books
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Listening Log" class="md-nav__button md-logo" aria-label="Listening Log" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 5v16M20.001 19A2 2 0 0 0 22 17V5a2 2 0 0 0-1.999-2L16 3.002A5 5 0 0 0 12 5a5 5 0 0 0-4-2H4a2 2 0 0 0-2 2v12a2 2 0 0 0 1.999 2H8a5 5 0 0 1 4 2 5 5 0 0 1 4-2z"/></svg>
+
+    </a>
+    Listening Log
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Home
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Books
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+            <label class="md-nav__title" for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Books
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../atomic-habits/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Atomic Habits (James Clear)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_2" id="__nav_2_2_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_2">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Atomic Habits (James Clear)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atomic-habits/part-1-the-fundamentals/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: The Fundamentals
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atomic-habits/part-2-make-it-obvious-and-attractive/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: Make It Obvious & Attractive
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atomic-habits/part-3-make-it-easy-and-satisfying/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 3: Make It Easy & Satisfying
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../atomic-habits/part-4-advanced-tactics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 4: Advanced Tactics
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../deep-work/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Deep Work (Cal Newport)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_3" id="__nav_2_3_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_3">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Deep Work (Cal Newport)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/part-1-the-idea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: The Idea
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../deep-work/part-2-the-rules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: The Rules
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Escaping the Build Trap (Melissa Perri)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="true">
+            <label class="md-nav__title" for="__nav_2_4">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Escaping the Build Trap (Melissa Perri)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Parts 1 & 2: Build Trap & PM Role
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="././" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Parts 1 & 2: Build Trap & PM Role
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-1-the-value-exchange-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 1: The Value Exchange System
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 1: The Value Exchange System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-2-projects-vs-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 2: Projects vs. Products
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 2: Projects vs. Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-3-the-known-unknowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 3: The Known-Unknowns
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 3: The Known-Unknowns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-4-the-bad-product-manager-archetypes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 4: The Bad Product Manager Archetypes
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 4: The Bad Product Manager Archetypes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-5-the-great-product-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 5: The Great Product Manager
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 5: The Great Product Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-6-the-product-manager-career-path-organising-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 6: The Product Manager Career Path &amp; Organising Teams
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 6: The Product Manager Career Path &amp; Organising Teams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part-2-strategy-and-process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Parts 3 & 4: Strategy & Process
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../part-3-product-led-organization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 5: Product-Led Organization
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../factfulness/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Factfulness (Hans Rosling)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_5" id="__nav_2_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_5">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Factfulness (Hans Rosling)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factfulness/part-1-gap-negativity-straight-line/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: Gap, Negativity & Straight Line
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factfulness/part-2-fear-size-generalization/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: Fear, Size & Generalisation
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../factfulness/part-3-destiny-single-perspective-blame-urgency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 3: Destiny, Perspective, Blame & Urgency
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../mans-search-for-meaning/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Man's Search for Meaning (Viktor E. Frankl)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_6">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Man's Search for Meaning (Viktor E. Frankl)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mans-search-for-meaning/part-1-experiences-in-a-concentration-camp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: Experiences in a Concentration Camp
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mans-search-for-meaning/part-2-logotherapy-in-a-nutshell/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: Logotherapy in a Nutshell
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../mans-search-for-meaning/part-3-the-case-for-a-tragic-optimism/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Postscript: The Case for a Tragic Optimism
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../same-as-ever/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Same as Ever (Morgan Housel)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_7">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Same as Ever (Morgan Housel)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../same-as-ever/part-1-risk-and-expectations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: Risk & Expectations
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../same-as-ever/part-2-human-nature-and-incentives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: Human Nature & Incentives
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../same-as-ever/part-3-progress-and-compounding/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 3: Progress & Compounding
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../same-as-ever/part-4-enduring-truths/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 4: Enduring Truths
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../sapiens/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Sapiens (Yuval Noah Harari)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_8">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  Sapiens (Yuval Noah Harari)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sapiens/part-1-cognitive-revolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: The Cognitive Revolution
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sapiens/part-2-agricultural-revolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: The Agricultural Revolution
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sapiens/part-3-unification-of-humankind/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 3: The Unification of Humankind
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../sapiens/part-4-scientific-revolution/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 4: The Scientific Revolution
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../psychology-of-money/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  The Psychology of Money (Morgan Housel)
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_9" id="__nav_2_9_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        
+          <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
+            <label class="md-nav__title" for="__nav_2_9">
+              <span class="md-nav__icon md-icon"></span>
+              
+  
+  The Psychology of Money (Morgan Housel)
+
+            </label>
+            <ul class="md-nav__list" data-md-scrollfix>
+              
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../psychology-of-money/part-1-luck-risk-and-enough/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 1: Luck, Risk & Enough
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../psychology-of-money/part-2-tails-freedom-and-wealth/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 2: Tails, Freedom & Wealth
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../psychology-of-money/part-3-margins-and-time/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 3: Margins & Time
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+                
+                  
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../psychology-of-money/part-4-playing-your-own-game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+  Part 4: Playing Your Own Game
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+                
+              
+            </ul>
+          </nav>
+        
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  
+                    
+                    
+                    
+                      
+                    
+                    
+                      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+                      <div class="md-sidebar-button__wrapper">
+                        <label class="md-sidebar-button" for="__toc"></label>
+                      </div>
+                    
+                  
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="On this page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On this page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-1-the-value-exchange-system" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 1: The Value Exchange System
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 1: The Value Exchange System">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-2-projects-vs-products" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 2: Projects vs. Products
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 2: Projects vs. Products">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-3-the-known-unknowns" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 3: The Known-Unknowns
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 3: The Known-Unknowns">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-4-the-bad-product-manager-archetypes" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 4: The Bad Product Manager Archetypes
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 4: The Bad Product Manager Archetypes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-5-the-great-product-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 5: The Great Product Manager
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 5: The Great Product Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chapter-6-the-product-manager-career-path-organising-teams" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Chapter 6: The Product Manager Career Path &amp; Organising Teams
+      </span>
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Chapter 6: The Product Manager Career Path &amp; Organising Teams">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#core-concepts-notes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Core Concepts &amp; Notes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mind-blowing-anecdotes-stories_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Mind-Blowing Anecdotes &amp; Stories
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#memorable-quotes_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      <span class="md-typeset">
+        Memorable Quotes
+      </span>
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                <a id="__skip" tabindex="-1"></a>
+                
+                  
+
+
+<h1 id="part-i-ii-the-build-trap-and-the-role-of-the-product-manager">Part I &amp; II: The Build Trap and the Role of the Product Manager<a class="headerlink" href="#part-i-ii-the-build-trap-and-the-role-of-the-product-manager" title="Permanent link">&para;</a></h1>
+<p>Parts I and II diagnose <em>why</em> organisations get stuck cranking out features nobody uses (the <strong>build trap</strong>) and define what effective product management actually looks like, from the bad archetypes to avoid through to career progression and team topology.</p>
+<hr />
+<p><strong>Part I: The Build Trap</strong></p>
+<h2 id="chapter-1-the-value-exchange-system">Chapter 1: The Value Exchange System<a class="headerlink" href="#chapter-1-the-value-exchange-system" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>The Big Idea:</strong> Companies fall into the build trap when they measure success by outputs (features shipped) instead of outcomes (customer problems solved and business value captured).</p>
+</blockquote>
+<h3 id="core-concepts-notes">Core Concepts &amp; Notes<a class="headerlink" href="#core-concepts-notes" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The Build Trap Defined:</strong> A state where organisations become obsessed with building and shipping features as fast as possible, assuming that more code equals more value. Teams are busy, velocity charts go up, yet revenue stalls and customers churn.</li>
+<li><strong>Outputs vs. Outcomes:</strong><ul>
+<li><strong>Outputs:</strong> Quantifiable things you produce (number of features released, story points completed, lines of code written). Easy to count, terrible as a proxy for value.</li>
+<li><strong>Outcomes:</strong> Measurable changes in customer behaviour that drive business results (higher retention, faster onboarding, reduced churn, increased conversion).</li>
+</ul>
+</li>
+<li><strong>The Value Exchange System:</strong> Business value and customer value are two sides of a continuous loop:<ol>
+<li>The business provides <strong>products and services</strong> that solve real customer problems or fulfil desires.</li>
+<li>Customers experience <strong>value</strong> (their problem is solved).</li>
+<li>In return, customers give the business <strong>value</strong> (money, data, loyalty, referrals), which funds further product investment.</li>
+</ol>
+</li>
+<li><strong>Software Is Only a Vehicle:</strong> Customers do not care about your features; they care about the value those features unlock. Shipping a feature is a <em>cost</em> until it actually changes customer behaviour.</li>
+<li><strong>Why Companies Stay Trapped:</strong> Leaders equate busyness with progress, sales teams promise one-off features to close deals, and engineering teams are rewarded for hitting arbitrary delivery dates rather than solving problems.</li>
+</ul>
+<h3 id="mind-blowing-anecdotes-stories">Mind-Blowing Anecdotes &amp; Stories<a class="headerlink" href="#mind-blowing-anecdotes-stories" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Introducing Marquetly (The Book's Running Case Study):</strong> Perri introduces <strong>Marquetly</strong>, a fictional composite company based on real clients she has coached. Marquetly builds software for teachers and students. Despite hiring smart engineers and adopting Agile, their customer satisfaction is plummeting and churn is rising. Their roadmap is just a giant wishlist of executive ideas and sales requests; they are shipping constantly, yet nobody checks whether any feature actually worked.</li>
+<li><strong>The Feature Factory Illusion:</strong> Perri notes how common it is for companies to celebrate a big "launch" with cake and champagne, then immediately pivot to the next item on the backlog without ever measuring if a single user adopted what they just spent six months building.</li>
+</ul>
+<h3 id="memorable-quotes">Memorable Quotes<a class="headerlink" href="#memorable-quotes" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>"The build trap is when organisations become stuck measuring their success by outputs rather than outcomes."</p>
+<p>"Value is realised only when it is in the hands of the customer."</p>
+<p>"Shipping features is not the goal. Solving customer problems in a way that creates business value is."</p>
+</blockquote>
+<hr />
+<h2 id="chapter-2-projects-vs-products">Chapter 2: Projects vs. Products<a class="headerlink" href="#chapter-2-projects-vs-products" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>The Big Idea:</strong> Software is a living product that continuously evolves to deliver value, not a one-off project with a fixed end date and a predetermined list of deliverables.</p>
+</blockquote>
+<h3 id="core-concepts-notes_1">Core Concepts &amp; Notes<a class="headerlink" href="#core-concepts-notes_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The Historical Hangover of IT Projects:</strong> In the early days of enterprise software, IT was a back-office <strong>cost centre</strong> (building internal payroll or accounting systems). Work was funded and managed like construction projects: fixed scope, fixed budget, fixed deadline, then hand over to maintenance.</li>
+<li><strong>Software Is Now the Business:</strong> Today, software is a <strong>value driver</strong> and often the primary revenue engine. Treating a living customer-facing product like a finite project guarantees stagnation.</li>
+<li><strong>Project Mindset vs. Product Mindset:</strong><ul>
+<li><strong>Project Mindset:</strong> Success = delivered on time and on budget. Teams disband when the project ends. Scope is locked upfront.</li>
+<li><strong>Product Mindset:</strong> Success = sustained business and customer outcomes. Dedicated, persistent teams continuously iterate, measure, and optimise over the product's entire lifecycle.</li>
+</ul>
+</li>
+<li><strong>Services vs. Products vs. Platforms:</strong><ul>
+<li><strong>Services:</strong> Bespoke human labour traded for money (scales linearly with headcount).</li>
+<li><strong>Products:</strong> Reusable solutions that deliver value to many customers repeatedly (scales non-linearly).</li>
+<li><strong>Platforms:</strong> Ecosystems that enable multiple products or external creators to build value on top of shared capabilities.</li>
+</ul>
+</li>
+<li><strong>Digital Transformation Requires Product Thinking:</strong> Adopting Jira and two-week sprints while keeping annual project scopes and rigid roadmaps is just "Waterfall in sprints", not agility.</li>
+</ul>
+<h3 id="mind-blowing-anecdotes-stories_1">Mind-Blowing Anecdotes &amp; Stories<a class="headerlink" href="#mind-blowing-anecdotes-stories_1" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Uber vs. Traditional Taxis:</strong> Traditional taxi companies treated software as a minor utility (maybe a clunky booking website). Uber recognised that the entire end-to-end ride experience (hailing, GPS tracking, cashless payment, driver ratings) was a <strong>product</strong> solving real friction. They didn't just digitise a dispatch phone line; they redesigned the value exchange.</li>
+<li><strong>Netflix's Evolution from DVDs to Streaming:</strong> Netflix never defined itself as "a DVD-by-mail project". Its core value proposition was effortless, on-demand entertainment. Because it thought in terms of evolving products and customer outcomes, it cannibalised its own DVD business to pioneer streaming and later original content, while Blockbuster clung to late fees and physical stores.</li>
+</ul>
+<h3 id="memorable-quotes_1">Memorable Quotes<a class="headerlink" href="#memorable-quotes_1" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>"Products are vehicles of value. They deliver value repeatedly to customers and users without requiring the company to build something new every time."</p>
+<p>"When we treat software like a project, we optimise for finishing the work instead of achieving the outcome."</p>
+</blockquote>
+<hr />
+<h2 id="chapter-3-the-known-unknowns">Chapter 3: The Known-Unknowns<a class="headerlink" href="#chapter-3-the-known-unknowns" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>The Big Idea:</strong> Product development operates in high uncertainty; pretending you know all the answers upfront leads to wasted engineering, whereas embracing experimentation turns unknowns into validated learning.</p>
+</blockquote>
+<h3 id="core-concepts-notes_2">Core Concepts &amp; Notes<a class="headerlink" href="#core-concepts-notes_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The Knowledge Matrix (Adapted from Donald Rumsfeld):</strong><ol>
+<li><strong>Known Knowns:</strong> Facts we are certain of (e.g., our current churn rate, existing system limits).</li>
+<li><strong>Known Unknowns:</strong> Questions we know we need to answer (e.g., "Will users pay for this tier?", "Which onboarding step causes drop-off?").</li>
+<li><strong>Unknown Knowns:</strong> Insights someone in the company or market already has, but the product team hasn't uncovered yet (often trapped in Support or Sales).</li>
+<li><strong>Unknown Unknowns:</strong> Blind spots we don't even realise exist until we interact with real customers in the wild.</li>
+</ol>
+</li>
+<li><strong>Why Software Is Not Bridge Construction:</strong> Building a bridge relies mostly on known knowns (physics, materials, established engineering tolerances). Building innovative software relies heavily on human behaviour, shifting markets, and untested assumptions.</li>
+<li><strong>The Danger of Premature Certainty:</strong> Stakeholders love fixed 12-month feature roadmaps because they create an illusion of certainty. In reality, locking in solutions before validating problems just guarantees you will build the wrong thing very efficiently.</li>
+<li><strong>Experimentation as Risk Reduction:</strong> Every feature idea is a <strong>hypothesis</strong>, not a guaranteed win. The job of product management is to surface assumptions and test the riskiest unknowns as cheaply as possible before writing production code.</li>
+</ul>
+<h3 id="mind-blowing-anecdotes-stories_2">Mind-Blowing Anecdotes &amp; Stories<a class="headerlink" href="#mind-blowing-anecdotes-stories_2" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Marquetly's Unwanted Social Feature:</strong> Marquetly's executives were convinced students wanted a built-in social network to share study notes, assuming it would magically boost engagement. Engineering spent months building profiles, feeds, and messaging. When it launched, usage was near zero. Had they treated the idea as a hypothesis, a simple week of student interviews would have revealed that students already used existing messaging apps and just wanted faster access to their course materials.</li>
+</ul>
+<h3 id="memorable-quotes_2">Memorable Quotes<a class="headerlink" href="#memorable-quotes_2" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>"The biggest trap in product development is assuming we already know what the customer wants."</p>
+<p>"A roadmap full of features is really just a list of untested assumptions disguised as a plan."</p>
+</blockquote>
+<hr />
+<p><strong>Part II: The Role of the Product Manager</strong></p>
+<h2 id="chapter-4-the-bad-product-manager-archetypes">Chapter 4: The Bad Product Manager Archetypes<a class="headerlink" href="#chapter-4-the-bad-product-manager-archetypes" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>The Big Idea:</strong> When organisations misunderstand product management, they accidentally create dysfunctional PM archetypes (the Mini-CEO, the Waiter, and the Former Project Manager) that actively reinforce the build trap.</p>
+</blockquote>
+<h3 id="core-concepts-notes_3">Core Concepts &amp; Notes<a class="headerlink" href="#core-concepts-notes_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Archetype 1: The Mini-CEO:</strong><ul>
+<li>Popularised by Ben Horowitz's famous (and often misquoted) essay. Taken literally, it creates arrogant, dictatorial PMs who act like they are the boss of engineers and designers.</li>
+<li><strong>Why it fails:</strong> PMs have no direct authority over engineering or design. Acting like a boss destroys psychological safety, silences great ideas from the team, and makes the PM a bottleneck.</li>
+</ul>
+</li>
+<li><strong>Archetype 2: The Waiter:</strong><ul>
+<li>An order-taker who walks around to executives, sales reps, and stakeholders asking, "What would you like me to put in the backlog today?", then hands those orders straight to engineering.</li>
+<li><strong>Why it fails:</strong> There is zero discovery, zero strategy, and zero pushback. The product turns into a bloated Frankenstein monster of disconnected stakeholder pet projects.</li>
+</ul>
+</li>
+<li><strong>Archetype 3: The Former Project Manager:</strong><ul>
+<li>Focuses almost entirely on delivery mechanics: Gantt charts, sprint velocity, burndown charts, ticket grooming, and hitting release dates.</li>
+<li><strong>Why it fails:</strong> Delivery management is important, but it is not product management. Obsessing over <em>when</em> things ship without questioning <em>whether</em> they should be built at all keeps teams trapped in the feature factory.</li>
+</ul>
+</li>
+<li><strong>Root Cause:</strong> Bad PMs are rarely bad people; they are usually the product of unclear leadership expectations and organisations that reward compliance and shipping over customer outcomes.</li>
+</ul>
+<h3 id="mind-blowing-anecdotes-stories_3">Mind-Blowing Anecdotes &amp; Stories<a class="headerlink" href="#mind-blowing-anecdotes-stories_3" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Marquetly's "Waiter" PMs:</strong> At Marquetly, a PM gets cornered in the hallway by the VP of Sales, who insists that a big prospect will only sign if they build a custom reporting dashboard by the end of the quarter. The PM dutifully writes up the Jira tickets, bumps all other work, and forces the team to crunch. The custom dashboard gets built, the prospect still doesn't sign (or churns six months later), and now Marquetly has to maintain a bespoke feature that zero other customers use.</li>
+</ul>
+<h3 id="memorable-quotes_3">Memorable Quotes<a class="headerlink" href="#memorable-quotes_3" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>"Product managers are not the CEO of the product. They cannot fire people, they do not control the budget, and they must lead through influence, not authority."</p>
+<p>"The Waiter product manager takes orders from stakeholders, writes them down as requirements, and delivers them to the developers without ever asking why."</p>
+</blockquote>
+<hr />
+<h2 id="chapter-5-the-great-product-manager">Chapter 5: The Great Product Manager<a class="headerlink" href="#chapter-5-the-great-product-manager" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>The Big Idea:</strong> Great product managers own the "why" and the "what", synthesising customer insights, business goals, and data to guide cross-functional teams towards measurable outcomes.</p>
+</blockquote>
+<h3 id="core-concepts-notes_4">Core Concepts &amp; Notes<a class="headerlink" href="#core-concepts-notes_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The Core Responsibility:</strong> Connect business strategy to customer value. The PM defines the <strong>why</strong> (the problem and business goal) and collaborates on the <strong>what</strong> (the direction and success criteria), while empowering designers and engineers to own the <strong>how</strong> (UX and technical architecture).</li>
+<li><strong>Three Dimensions of PM Work:</strong><ol>
+<li><strong>Strategic:</strong> Defining long-term vision, understanding market shifts, positioning, and identifying high-leverage opportunities.</li>
+<li><strong>Operational:</strong> Translating strategy into roadmaps, goals, metrics, and alignment across stakeholders (Sales, Marketing, Support, Legal).</li>
+<li><strong>Tactical:</strong> Day-to-day discovery, writing clear problem statements, prioritising backlogs, running experiments, and refining stories with the team.</li>
+</ol>
+</li>
+<li><strong>Leading Without Authority:</strong> Great PMs persuade through <strong>evidence, customer empathy, and clear storytelling</strong>, not hierarchy. They say "no" gracefully by showing trade-offs against agreed strategic goals.</li>
+<li><strong>Collaboration Over Handoffs:</strong> Great PMs don't throw 50-page requirements documents over a wall. They bring engineers and designers into customer interviews and discovery so the whole team shares context.</li>
+<li><strong>Key Traits:</strong> Deep curiosity, comfort with ambiguity, data literacy (using data to ask better questions, not just confirm biases), and relentless focus on outcomes.</li>
+</ul>
+<h3 id="mind-blowing-anecdotes-stories_4">Mind-Blowing Anecdotes &amp; Stories<a class="headerlink" href="#mind-blowing-anecdotes-stories_4" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Marquetly's Turning Point:</strong> When Marquetly brings in an experienced VP of Product (Sarah), she immediately stops the PMs from writing exhaustive specifications for executive wishes. Instead, she pairs them with UX designers and engineers to sit beside real teachers and watch them struggle with the platform. Within weeks, the team uncovers glaring usability friction that had been completely invisible in executive boardrooms.</li>
+</ul>
+<h3 id="memorable-quotes_4">Memorable Quotes<a class="headerlink" href="#memorable-quotes_4" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>"The product manager's job is to own the 'why', collaborate on the 'what', and let the team own the 'how'."</p>
+<p>"Great product managers are ruthless about prioritisation, empathetic towards customers, and grounded in data."</p>
+</blockquote>
+<hr />
+<h2 id="chapter-6-the-product-manager-career-path-organising-teams">Chapter 6: The Product Manager Career Path &amp; Organising Teams<a class="headerlink" href="#chapter-6-the-product-manager-career-path-organising-teams" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>The Big Idea:</strong> As product managers grow in seniority, their focus shifts from tactical execution to strategic direction; similarly, organisations must structure product teams around customer value streams rather than technical components or internal silos.</p>
+</blockquote>
+<h3 id="core-concepts-notes_5">Core Concepts &amp; Notes<a class="headerlink" href="#core-concepts-notes_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The PM Career Ladder (Tactical to Strategic Shift):</strong><ul>
+<li><strong>Associate PM (APM):</strong> Mostly tactical. Learns discovery basics, writes stories, analyses feature metrics, and supports a more senior PM.</li>
+<li><strong>Product Manager (PM):</strong> Balances tactical and operational work. Owns a specific product area or customer journey, runs experiments, and delivers outcomes for one squad.</li>
+<li><strong>Senior PM:</strong> Tackles higher-ambiguity problems, owns larger or more complex product domains, mentors junior PMs, and contributes heavily to product strategy.</li>
+<li><strong>Director / Group PM:</strong> Mostly operational and strategic. Manages a portfolio of related products, coaches PMs, and aligns cross-team initiatives.</li>
+<li><strong>VP of Product:</strong> Bridges executive business strategy and product execution. Designs the product organisation, hiring, career paths, and product processes.</li>
+<li><strong>Chief Product Officer (CPO):</strong> Purely strategic and executive. Owns overall product vision at the board level, shapes company strategy, and drives company-wide product culture.</li>
+</ul>
+</li>
+<li><strong>How to Organise Product Teams:</strong><ul>
+<li><strong>Avoid Component Teams</strong> (e.g., a "Frontend Team", "Backend Team", "Database Team"): Every customer feature requires cross-team handoffs and dependencies, killing speed and ownership.</li>
+<li><strong>Avoid Stakeholder-Aligned Teams</strong> (e.g., "Marketing's Dev Team", "Sales's Dev Team"): Turns teams into internal agency order-takers.</li>
+<li><strong>Favour Value-Stream / Customer-Journey Teams:</strong> Cross-functional squads (PM + Design + Engineering + Data) aligned to a distinct customer problem, journey stage, or business outcome (e.g., "Onboarding &amp; Activation", "Checkout &amp; Payments").</li>
+</ul>
+</li>
+<li><strong>Conway's Law:</strong> Organisations inevitably ship systems that mirror their internal communication structures. If your org chart is siloed, your user experience will feel disjointed and siloed too.</li>
+</ul>
+<h3 id="mind-blowing-anecdotes-stories_5">Mind-Blowing Anecdotes &amp; Stories<a class="headerlink" href="#mind-blowing-anecdotes-stories_5" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>The "Too Many Handoffs" Org Chart:</strong> Perri describes organisations where a single customer-facing improvement requires tickets across four separate component teams (API team, web team, mobile team, data team). Each team has its own backlog and priorities, so a two-week customer win takes six months to coordinate, leaving customers frustrated and PMs acting as glorified traffic cops.</li>
+</ul>
+<h3 id="memorable-quotes_5">Memorable Quotes<a class="headerlink" href="#memorable-quotes_5" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>"As you move up the product management career ladder, you shift from being primarily tactical to primarily strategic."</p>
+<p>"Organise your teams around the value you deliver to customers, not around the architecture of your software."</p>
+</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog" role="status" aria-atomic="true">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      
+      
+        
+        
+      <script id="__config" type="application/json">{"annotate":null,"base":"../../..","features":["navigation.tabs","navigation.sections","navigation.expand","navigation.top","navigation.indexes","search.suggest","search.highlight","content.code.copy"],"redirect":null,"search":"../../../assets/javascripts/workers/search.719e0d91.min.js","tags":null,"translations":{"clipboard.copied":"Copied to clipboard","clipboard.copy":"Copy to clipboard","clipboard.error":"Could not copy to clipboard","search.result.more.one":"1 more on this page","search.result.more.other":"# more on this page","search.result.none":"No matching documents","search.result.one":"1 matching document","search.result.other":"# matching documents","search.result.placeholder":"Type to start searching","search.result.term.missing":"Missing","select.version":"Select version"},"version":null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.9e76c64c.min.js"></script>
+      
+      
+    
+  </body>
+</html>
