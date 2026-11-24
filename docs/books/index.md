@@ -4,6 +4,7 @@ Key themes, quotes, and anecdotes from the audiobooks I have listened to or am c
 
 ## Currently Listening
 
+- **[Man's Search for Meaning](mans-search-for-meaning/index.md)** (Viktor E. Frankl)
 - **[Sapiens: A Brief History of Humankind](sapiens/index.md)** (Yuval Noah Harari)
 
 ## Listened

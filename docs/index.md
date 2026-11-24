@@ -4,6 +4,7 @@ A personal record of the audiobooks I listen to on Audible, capturing key themes
 
 ## Currently Listening
 
+- **[Man's Search for Meaning](books/mans-search-for-meaning/index.md)** by Viktor E. Frankl
 - **[Sapiens: A Brief History of Humankind](books/sapiens/index.md)** by Yuval Noah Harari
 
 ## Library

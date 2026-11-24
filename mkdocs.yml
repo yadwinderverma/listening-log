@@ -68,6 +68,11 @@ nav:
           - "Part 1: Gap, Negativity & Straight Line": books/factfulness/part-1-gap-negativity-straight-line.md
           - "Part 2: Fear, Size & Generalisation": books/factfulness/part-2-fear-size-generalization.md
           - "Part 3: Destiny, Perspective, Blame & Urgency": books/factfulness/part-3-destiny-single-perspective-blame-urgency.md
+      - Man's Search for Meaning (Viktor E. Frankl):
+          - Overview & Core Thesis: books/mans-search-for-meaning/index.md
+          - "Part 1: Experiences in a Concentration Camp": books/mans-search-for-meaning/part-1-experiences-in-a-concentration-camp.md
+          - "Part 2: Logotherapy in a Nutshell": books/mans-search-for-meaning/part-2-logotherapy-in-a-nutshell.md
+          - "Postscript: The Case for a Tragic Optimism": books/mans-search-for-meaning/part-3-the-case-for-a-tragic-optimism.md
       - Same as Ever (Morgan Housel):
           - Overview & Core Thesis: books/same-as-ever/index.md
           - "Part 1: Risk & Expectations": books/same-as-ever/part-1-risk-and-expectations.md
